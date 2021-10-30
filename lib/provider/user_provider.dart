@@ -36,7 +36,7 @@ class RegisterProvider with ChangeNotifier, DiagnosticableTreeMixin {
           .putFile(user.backIdImage);
     } on FirebaseException catch (e) {
       print(e);
-      // e.g, e.code == 'canceled'
+      print(e);
     }
   }
 
