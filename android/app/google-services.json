@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "525138146048",
+    "project_id": "blnk-task",
+    "storage_bucket": "blnk-task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525138146048:android:ca69baaedddfb09491b9e5",
+        "android_client_info": {
+          "package_name": "com.example.blnk_task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525138146048-dvn36ubgckfjdc2c9i6mrkq3g553sa6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEXLyUODmnMKQyQ2a3Jf4G-ydCogzE6so"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525138146048-dvn36ubgckfjdc2c9i6mrkq3g553sa6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
