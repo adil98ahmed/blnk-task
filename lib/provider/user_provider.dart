@@ -85,6 +85,8 @@ class RegisterProvider with ChangeNotifier, DiagnosticableTreeMixin {
       if (UsersSheetApi.userSheet == null) {
       } else {
         wait = true;
+        notifyListeners();
+
         await UsersSheetApi.userSheet.values.map.appendRows([
           {
             "Id": user.id,
@@ -95,6 +97,7 @@ class RegisterProvider with ChangeNotifier, DiagnosticableTreeMixin {
           }
         ]);
         wait = false;
+        notifyListeners();
         return true;
       }
     } else {
